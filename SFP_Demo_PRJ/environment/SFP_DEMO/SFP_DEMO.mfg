@@ -6,5 +6,5 @@
     <key>VARIANT_LOGICS_PATH</key>
     <value>$(SYM_CONST_LOGICS_PATH_SPEED)</value>
   </config>
-  <search-directory type="TESTABLE_SOURCE_DIR">$(ENVIRO_SEARCH_LIST_SYM_CONST)/</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">./src/SYM_CONST/</search-directory>
 </manage-config-options>
