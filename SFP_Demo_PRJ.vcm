@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="35">
+  <config>
+    <config>
+      <key>VCAST_COVERAGE_FOR_HEADERS</key>
+      <value>TRUE</value>
+      <key>VCAST_COVERAGE_SOURCE_FILE_PERSPECTIVE</key>
+      <value>TRUE</value>
+    </config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1724848476</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="SFP_DEMO" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>SFP_DEMO</original-environment-directory>
+    </config>
+  </environment>
+  <group name="SFP_DEMO-Group">
+    <environment name="SFP_DEMO"/>
+  </group>
+  <compiler>
+    <compiler>
+      <name>Linux_GCC_CPP11</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>GNU_CPP11_48</value>
+        </config>
+        <process-environment>
+          <key>PATH</key>
+          <value>/use/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin</value>
+        </process-environment>
+      </config>
+    </compiler>
+    <testsuite name="SFP_DEMO-OEM1">
+      <config>
+        <config>
+          <key>VCAST_TEST_VALUES_DICTIONARY</key>
+          <value>OEM1Values</value>
+          <key>C_DEFINE_LIST</key>
+          <value>OEM1</value>
+        </config>
+      </config>
+      <group name="SFP_DEMO-Group"/>
+    </testsuite>
+    <testsuite name="SFP_DEMO-OEM2">
+      <config>
+        <config>
+          <key>VCAST_TEST_VALUES_DICTIONARY</key>
+          <value>OEM2Values</value>
+          <key>C_DEFINE_LIST</key>
+          <value>OEM2</value>
+        </config>
+      </config>
+      <group name="SFP_DEMO-Group"/>
+    </testsuite>
+  </compiler>
+  <environment-variable-name>PATH</environment-variable-name>
+</project>

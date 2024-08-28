@@ -1,0 +1,7 @@
+<test-values-dictionary version="1">
+  <test-value name="dataSet" type="string" value="OEM1"/>
+  <test-value name="speedWarningValue" type="int" value="199"/>
+  <test-value name="governorWarningValue" type="int" value="201"/>
+  <test-value name="speedRange" type="int" value="0..150/20"/>
+  <test-value name="keySpeedValues" type="int" value="0,25,55,75"/>
+</test-values-dictionary>
